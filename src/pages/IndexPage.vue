@@ -316,36 +316,4 @@
   gap: 12px
   font-size: 8px
   color: #555555
-
-@media (max-width: 900px)
-
-  .portfolio-page
-    width: 100%
-    height: auto
-    flex-direction: column
-
-  .cover-card
-    width: 100%
-    height: 500px
-
-  .portfolio-grid
-    grid-template-columns: repeat(2, 1fr)
-
-  .cover-image
-    height: 430px
-
-@media (max-width: 600px)
-
-  .portfolio-page
-    padding: 15px
-    gap: 15px
-
-  .portfolio-grid
-    grid-template-columns: 1fr
-
-  .cover-card
-    height: 450px
-
-  .cover-image
-    height: 385px
 </style>
